@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:spacing="12dp">
+
+        <EditText
+            android:id="@+id/etName"
+            android:hint="Nama Tempat Healing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:padding="12dp" />
+
+        <EditText
+            android:id="@+id/etImageUrl"
+            android:hint="URL Gambar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:padding="12dp"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/etShortDesc"
+            android:hint="Keterangan Singkat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:padding="12dp"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/etLongDesc"
+            android:hint="Keterangan Lengkap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:padding="12dp"
+            android:layout_marginTop="8dp" />
+
+        <Spinner
+            android:id="@+id/spinnerCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:padding="12dp"
+            android:layout_marginTop="8dp" />
+
+
+        <Button
+            android:id="@+id/btnSave"
+            android:text="Simpan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:layout_marginTop="16dp" />
+    </LinearLayout>
+</ScrollView>
